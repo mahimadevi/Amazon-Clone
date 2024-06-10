@@ -217,14 +217,3 @@ const Navbaar = () => {
 
 export default Navbaar;
 
-
-// account ? <Button id="basic-button"
-// aria-controls="basic-menu"
-// aria-haspopup="true"
-// aria-expanded={open ? 'true' : undefined}
-// onClick={handleClick}> <Avatar className="avtar2" title={account.fname.toUpperCase()}>{account.fname[0].toUpperCase()}</Avatar>  </Button> : <Button id="basic-button"
-//     aria-controls="basic-menu"
-//     aria-haspopup="true"
-//     aria-expanded={open ? 'true' : undefined}
-//     onClick={handleClick}> <Avatar className="avtar" />
-// </Button>
