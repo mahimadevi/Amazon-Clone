@@ -37,21 +37,6 @@ const Buynow = () => {
     useEffect(() => {
         getdatabuy();
     }, []);
-
-
-    // const [price, setPrice] = useState(0);
-    // const totalAmount = () => {
-    //     let price = 0
-    //     cartdata.map((e) => {
-    //         price += e.price.cost
-    //     })
-    //     setPrice(price)
-    // }
-
-    // useEffect(() => {
-    //     totalAmount();
-    // }, [cartdata]);
-
     
 
     return (
@@ -100,7 +85,3 @@ const Buynow = () => {
 
 export default Buynow;
 
-
-// thodu changes krya 6 carts ni andr cart htu bt tene remove karine 
-// je pramane aapdo normal data save 6 te rite bnavyu
-// jo carts ni andr cart use kro to tmare map call kravya pachi pn e.cart.discount
