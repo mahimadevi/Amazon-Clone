@@ -10,7 +10,6 @@ const router = require("./routes/router");
 const cookieParser = require("cookie-parser")
 const jwt = require("jsonwebtoken");
 
-
 const port = process.env.PORT || 3005;
 
 // CORS configuration
@@ -25,16 +24,21 @@ app.use(cookieParser(""));
 app.use(cors(corsOptions));
 // app.use(cors());
 app.use(router);
-//for deployment
-if(process.env.NODE_ENV === "production"){
-  app.use(express.static("client/build"))
-}
 
-
-app.listen(port, () => {
-  console.log(`server is running on port number ${port}`);
-  connect();
+// Health check route
+app.get("/health", (req, res) => {
+  res.status(200).send("Server is running smoothly!");
 });
 
+// For deployment
+if(process.env.NODE_ENV === "production"){
+  app.use(express.static("client/build"));
+}
+
+app.listen(port, () => {
+  console.log(`Server is running on port number ${port}`);
+  console.log(`Health check available at: http://localhost:${port}/health`);
+  connect();
+});
 
 DefaultData();
