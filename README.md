@@ -23,7 +23,7 @@ This project provides a comprehensive example of building a modern web applicati
 
 HomePage
 
-![image](https://github.com/mahimadevi/amazon_clone/assets/72203327/5f3e7c3f-712c-403c-a10e-cc3ccf2b427d)
+![image](https://github.com/user-attachments/assets/4b5f4f72-1ee1-4bf5-a69a-507100ff7cab)
 
 LogIn
 
@@ -39,4 +39,9 @@ BuyNow
 
 ProductDetails
 
-![image](https://github.com/mahimadevi/amazon_clone/assets/72203327/54f49a66-3bc3-430a-97ce-f20f7fa544f0)
+![image](https://github.com/user-attachments/assets/941f64e5-497f-4362-8c73-b456c50c62ad)
+
+CartDetails
+
+![image](https://github.com/user-attachments/assets/f7abb97f-fb8b-414d-94ef-80cb2c012ead)
+
