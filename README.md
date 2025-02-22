@@ -27,21 +27,19 @@ HomePage
 
 LogIn
 
-![image](https://github.com/mahimadevi/amazon_clone/assets/72203327/3e487a15-a181-4a6d-81ef-74a0340d630c)
+![image](https://github.com/user-attachments/assets/e2284576-f300-4aba-a882-736344ff3d09)
+
 
 SignUp
 
-![image](https://github.com/mahimadevi/amazon_clone/assets/72203327/397cb751-7604-4890-a570-a07b5c6e4fd5)
+![image](https://github.com/user-attachments/assets/aa51f66f-e5f1-47e6-bee6-05cb81f6fc5d)
 
-BuyNow
-
-![image](https://github.com/mahimadevi/amazon_clone/assets/72203327/68afa230-59d9-4437-a060-e86431b7a9d7)
 
 ProductDetails
 
 ![image](https://github.com/user-attachments/assets/941f64e5-497f-4362-8c73-b456c50c62ad)
 
-CartDetails
+BuyNow
 
 ![image](https://github.com/user-attachments/assets/f7abb97f-fb8b-414d-94ef-80cb2c012ead)
 
